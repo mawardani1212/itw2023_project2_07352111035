@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Shopping Cart | AD CELL TIDORE</title>
+  </head>
+  <body>
+    <!--awal navbar -->
+    <div class="navbar">
+      <div class="logo">AD CELL TIDORE</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="iphone_page.html">Iphone</a>
+        <a href="android_page.html">Android</a>
+        <a href="laptop_page.html">Laptop</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <!-- end navbar -->
+    <div class="container-cart">
+      <div class="cart-header">Shopping Cart</div>
+      <div class="cart-items">
+        <div class="cart-item">
+          <img src="img/andro1.png" alt="Product 1" />
+          <div class="item-details">
+            <div>
+              <h3>Product 1</h3>
+              <p>Price: $20.00</p>
+            </div>
+            <div class="item-quantity">
+              Quantity: <input type="number" value="1" min="1" />
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="img/ip2.png" alt="Product 1" />
+          <div class="item-details">
+            <div>
+              <h3>Product 1</h3>
+              <p>Price: $20.00</p>
+            </div>
+            <div class="item-quantity">
+              Quantity: <input type="number" value="1" min="1" />
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="img/lap1.png" alt="Product 1" />
+          <div class="item-details">
+            <div>
+              <h3>Product 1</h3>
+              <p>Price: $20.00</p>
+            </div>
+            <div class="item-quantity">
+              Quantity: <input type="number" value="1" min="1" />
+            </div>
+          </div>
+        </div>
+        <!-- Add more cart items as needed -->
+      </div>
+      <div class="cart-total">Total: $20.00</div>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+    <footer>
+      <div class="payment-logos">
+        <img class="payment-logo" src="img/pym1.png" alt="Payment Method 1" />
+        <img class="payment-logo" src="img/pym2.png" alt="Payment Method 2" />
+        <img class="payment-logo" src="img/pym3.png" alt="Payment Method 3" />
+        <!-- Add more payment logos as needed -->
+      </div>
+      <p>&copy; 2023 AD CELL TIDORE. All rights reserved.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
